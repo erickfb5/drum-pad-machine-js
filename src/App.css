@@ -1,0 +1,230 @@
+html {
+    margin: 0;
+    padding: 0;
+background-color: hotpink;
+color: rgba(0, 0, 128, 0.612);
+}
+
+.App {
+    background-color: hotpink;
+    margin: 0;
+    padding: 0;
+}
+
+.title{
+    margin-top: -25px;
+}
+
+h2,h4 {
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    font-size: 30px;
+}
+
+.container{
+    background-color: hotpink;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: fit-content;
+    margin-top: -25px;
+    justify-content: space-between;
+}
+
+.wrapper {
+    background-color: hotpink;
+    min-width: auto;
+    min-height: 55vh;
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1px;
+    justify-items: center;
+}
+.wrapper2 {
+    background-color: hotpink;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 50px;
+    flex-direction: column;
+    justify-items: center;
+    justify-content: left;
+    align-items: center;
+    width: 100vw;
+    min-height: 50vh;
+}
+
+.input-range {
+    text-align: center;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgba(40, 226, 255, 0.911);
+    color: white;
+    font-weight: 700;
+    padding: 85px;
+    margin: 5px;
+    width: 1.5vw;
+    min-height: 5vh;
+    font-size: 35px;
+    text-align: center;
+}
+
+.btn-warning {
+    background-color: greenyellow;
+    color: white;
+}
+
+button {
+    min-height: 5vh;
+    min-width: 6vw;
+    margin: 2px;
+    padding: 1px;
+    border-radius: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.play {
+    background-color: green;
+}
+
+.clear {
+    background-color: red;
+}
+
+.recording {
+    background-color: rgba(0, 0, 0, 0.394);
+    color: aliceblue;
+    font-size: 1.5em;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 15px;
+}
+
+@media (max-width: 750px){
+   html {
+       background-color:hotpink;
+       margin: 0;
+       padding: 0;
+   }
+   .container{
+    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+    min-width: 50vw;
+    justify-content: space-between;
+}
+
+.wrapper {
+    background-color: hotpink;
+    min-width: 50vw;
+    min-height: 55vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 1px;
+    justify-items: center;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 15px;
+    background-color: rgba(40, 226, 255, 0.911);
+    color: white;
+    font-weight: 700;
+    padding: 40px;
+    margin: 5px;
+    width: 5vw;
+    height: 2vh;
+    font-size: 30px;
+    text-align: center;
+    justify-items: center;
+}
+
+.btn-warning {
+    background-color: greenyellow;
+    color: white;
+}
+
+.wrapper2 {
+    background-color: hotpink;
+    width: 100vw;
+    min-height: fit-content;
+    margin: -3px;
+}
+
+
+.play, .clear {
+
+font-size: 25px;
+padding: 5px;
+width: 30vw;
+height: 10vh;
+}
+
+.volume{
+    background-color: hotpinkred;
+    margin-top: -1px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.volume > h4{
+    background-color: hotpinkaqua;
+    margin-top: 5px;
+    width: 100vw;
+    font-size: 25px;
+}
+
+.volume > .input-range{
+    background-color: hotpink;
+    margin-top: -15px;
+    width: 75vw;
+    justify-content: center;
+    align-self: center;
+}
+
+.title{
+    font-size: 50px;
+    height: 10vh;
+margin-top: -55px;
+padding-top: 25px;
+padding-bottom: 25px;
+    background-color: hotpink;
+}
+
+.buttons{
+    background-color: hotpink;
+}
+
+.speed{
+    margin-top: -25px;
+    background-color: hotpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.speed > div{
+    background-color: hotpink;
+    margin-top: -30px;
+   
+}
+.speed > h4{
+    font-size: 25px;
+}
+}
+
+@media (max-width: 300px){
+    html{
+        display: none;
+    }
+}
